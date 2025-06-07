@@ -1,0 +1,6 @@
+*.tfstate
+*.tfstate.backup
+.terraform/
+secrets.tfvars
+*.tfvars
+!rdsdb.auto.tfvars

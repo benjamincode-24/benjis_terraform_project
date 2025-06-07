@@ -1,0 +1,13 @@
+# What is terraform.tfvars?
+In Terraform, when you define variables 
+(like aws_region), you also need to provide values for those variables.
+A file named terraform.tfvars is a special 
+file where you can set those variable values, 
+so Terraform knows what to use when running your configuration.
+
+Now when you run:
+
+# Run this command to apply your Terraform configuration:
+"terraform apply"
+Terraform will automatically read terraform.tfvars 
+and use "us-east-1" as the value of aws_region.
